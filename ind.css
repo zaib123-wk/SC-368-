@@ -1,0 +1,32 @@
+h1{
+    background-color: rgb(212, 206, 230);
+}
+
+.parent {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    margin-right:30px;
+  }
+  .child {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(33.33% - 20px);
+    margin:10px;
+  }
+
+.div_img{
+    margin-bottom: 100px;
+}
+  
+img {
+    transition: transform 0.3s; /* add transition effect */
+    width: 231px;
+    height: 286px;
+    overflow: hidden;
+  }
+  
+  img:hover {
+    transform: scale(1.2); /* increase image size by 50% on hover */
+  }
